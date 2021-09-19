@@ -6,6 +6,8 @@
 
 #include "process.h"
 #include "processor.h"
+#include "linux_parser.h"
+#include "format.h"
 
 class System {
  public:
@@ -22,6 +24,14 @@ class System {
  private:
   Processor cpu_ = {};
   std::vector<Process> processes_ = {};
+  long uptime_;
+
+/* float memory_utilization_;
+  int total_processes_;
+  int running_processes_;
+  std::string kernel_;
+  std::string operating_system_;
+  */
 };
 
 #endif

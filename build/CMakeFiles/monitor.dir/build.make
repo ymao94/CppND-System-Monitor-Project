@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ymao/git/github/CppND-System-Monitor-Project-Updated
+CMAKE_SOURCE_DIR = /home/ymao/git/github/CppND-System-Monitor-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ymao/git/github/CppND-System-Monitor-Project-Updated/build
+CMAKE_BINARY_DIR = /home/ymao/git/github/CppND-System-Monitor-Project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/monitor.dir/depend.make
@@ -78,94 +78,94 @@ include CMakeFiles/monitor.dir/flags.make
 
 CMakeFiles/monitor.dir/src/format.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/format.cpp.o: ../src/format.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitor.dir/src/format.cpp.o"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/format.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/format.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitor.dir/src/format.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/format.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project/src/format.cpp
 
 CMakeFiles/monitor.dir/src/format.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/format.cpp.i"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/format.cpp > CMakeFiles/monitor.dir/src/format.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project/src/format.cpp > CMakeFiles/monitor.dir/src/format.cpp.i
 
 CMakeFiles/monitor.dir/src/format.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/format.cpp.s"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/format.cpp -o CMakeFiles/monitor.dir/src/format.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project/src/format.cpp -o CMakeFiles/monitor.dir/src/format.cpp.s
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/linux_parser.cpp.o: ../src/linux_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/linux_parser.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/linux_parser.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project/src/linux_parser.cpp
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/linux_parser.cpp.i"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp > CMakeFiles/monitor.dir/src/linux_parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project/src/linux_parser.cpp > CMakeFiles/monitor.dir/src/linux_parser.cpp.i
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/linux_parser.cpp.s"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp -o CMakeFiles/monitor.dir/src/linux_parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project/src/linux_parser.cpp -o CMakeFiles/monitor.dir/src/linux_parser.cpp.s
 
 CMakeFiles/monitor.dir/src/main.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monitor.dir/src/main.cpp.o"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/main.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monitor.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/main.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project/src/main.cpp
 
 CMakeFiles/monitor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/main.cpp.i"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/main.cpp > CMakeFiles/monitor.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project/src/main.cpp > CMakeFiles/monitor.dir/src/main.cpp.i
 
 CMakeFiles/monitor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/main.cpp.s"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/main.cpp -o CMakeFiles/monitor.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project/src/main.cpp -o CMakeFiles/monitor.dir/src/main.cpp.s
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: ../src/ncurses_display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project/src/ncurses_display.cpp
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/ncurses_display.cpp.i"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp > CMakeFiles/monitor.dir/src/ncurses_display.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project/src/ncurses_display.cpp > CMakeFiles/monitor.dir/src/ncurses_display.cpp.i
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/ncurses_display.cpp.s"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project/src/ncurses_display.cpp -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.s
 
 CMakeFiles/monitor.dir/src/process.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/process.cpp.o: ../src/process.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monitor.dir/src/process.cpp.o"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/process.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monitor.dir/src/process.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/process.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project/src/process.cpp
 
 CMakeFiles/monitor.dir/src/process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/process.cpp.i"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/process.cpp > CMakeFiles/monitor.dir/src/process.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project/src/process.cpp > CMakeFiles/monitor.dir/src/process.cpp.i
 
 CMakeFiles/monitor.dir/src/process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/process.cpp.s"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/process.cpp -o CMakeFiles/monitor.dir/src/process.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project/src/process.cpp -o CMakeFiles/monitor.dir/src/process.cpp.s
 
 CMakeFiles/monitor.dir/src/processor.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/processor.cpp.o: ../src/processor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monitor.dir/src/processor.cpp.o"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/processor.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monitor.dir/src/processor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/processor.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project/src/processor.cpp
 
 CMakeFiles/monitor.dir/src/processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/processor.cpp.i"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/processor.cpp > CMakeFiles/monitor.dir/src/processor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project/src/processor.cpp > CMakeFiles/monitor.dir/src/processor.cpp.i
 
 CMakeFiles/monitor.dir/src/processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/processor.cpp.s"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/processor.cpp -o CMakeFiles/monitor.dir/src/processor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project/src/processor.cpp -o CMakeFiles/monitor.dir/src/processor.cpp.s
 
 CMakeFiles/monitor.dir/src/system.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/system.cpp.o: ../src/system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/monitor.dir/src/system.cpp.o"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/system.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/monitor.dir/src/system.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/system.cpp.o -c /home/ymao/git/github/CppND-System-Monitor-Project/src/system.cpp
 
 CMakeFiles/monitor.dir/src/system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/system.cpp.i"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/system.cpp > CMakeFiles/monitor.dir/src/system.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymao/git/github/CppND-System-Monitor-Project/src/system.cpp > CMakeFiles/monitor.dir/src/system.cpp.i
 
 CMakeFiles/monitor.dir/src/system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/system.cpp.s"
-	/bin/x86_64-linux-gnu-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project-Updated/src/system.cpp -o CMakeFiles/monitor.dir/src/system.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymao/git/github/CppND-System-Monitor-Project/src/system.cpp -o CMakeFiles/monitor.dir/src/system.cpp.s
 
 # Object files for target monitor
 monitor_OBJECTS = \
@@ -191,7 +191,7 @@ monitor: CMakeFiles/monitor.dir/build.make
 monitor: /usr/lib/x86_64-linux-gnu/libncurses.so
 monitor: /usr/lib/x86_64-linux-gnu/libform.so
 monitor: CMakeFiles/monitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable monitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable monitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -204,6 +204,6 @@ CMakeFiles/monitor.dir/clean:
 .PHONY : CMakeFiles/monitor.dir/clean
 
 CMakeFiles/monitor.dir/depend:
-	cd /home/ymao/git/github/CppND-System-Monitor-Project-Updated/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ymao/git/github/CppND-System-Monitor-Project-Updated /home/ymao/git/github/CppND-System-Monitor-Project-Updated /home/ymao/git/github/CppND-System-Monitor-Project-Updated/build /home/ymao/git/github/CppND-System-Monitor-Project-Updated/build /home/ymao/git/github/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ymao/git/github/CppND-System-Monitor-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ymao/git/github/CppND-System-Monitor-Project /home/ymao/git/github/CppND-System-Monitor-Project /home/ymao/git/github/CppND-System-Monitor-Project/build /home/ymao/git/github/CppND-System-Monitor-Project/build /home/ymao/git/github/CppND-System-Monitor-Project/build/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/monitor.dir/depend
 
