@@ -6,6 +6,8 @@
 #include <string>
 #include<vector>
 
+using std::string;
+
 namespace LinuxParser {
 // Paths
 const std::string kProcDirectory{"/proc/"};
@@ -41,6 +43,9 @@ enum CPUStates {
   kGuest_,
   kGuestNice_
 };
+
+
+
 std::vector<std::string> CpuUtilization();
 long Jiffies();
 long ActiveJiffies();
@@ -48,6 +53,15 @@ long ActiveJiffies(int pid);
 long IdleJiffies();
 
 // Processes
+
+
+const string filterProcesses("processes");
+const string filterRunningProcesses("procs_running");
+const string filterMemTotalString("MemTotal:");
+const string filterMemFreeString("MemFree:");
+const string filterUID("Uid:");
+const string filterProcMem("VmRSS:");
+
 std::vector<std::string> StatFileParser(int pid);
 std::string Command(int pid);
 std::string Ram(int pid);

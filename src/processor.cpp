@@ -12,7 +12,7 @@ using std::string;
 using std::vector;
 using namespace std::this_thread;     // sleep_for, sleep_until
 using namespace std::chrono;
-// TODO: Return the aggregate CPU utilization
+
 
 const std::string kProcDirectory{"/proc/"};
 const std::string kStatFilename{"/stat"};
