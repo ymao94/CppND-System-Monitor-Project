@@ -45,7 +45,7 @@ string LinuxParser::Kernel() {
     linestream >> os >> version >> kernel;
   }
   return kernel;
-
+}
 
 
 vector<int> LinuxParser::Pids() {
@@ -265,7 +265,7 @@ string LinuxParser::User(int pid) {
     }
   }
   return key; 
-
+}
 
 long LinuxParser::UpTime(int pid) {
  
